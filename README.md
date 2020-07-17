@@ -35,6 +35,7 @@
 
 *1.2.2 plan for session management in a distributed environment*
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) pages 26-27
+ - [Sticky and NON-Sticky sessions](https://stackoverflow.com/questions/10494431/sticky-and-non-sticky-sessions)
 
 *1.2.3 plan web farms*
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) pages 27-28
@@ -42,7 +43,6 @@
 *1.2.4 run Microsoft Azure services on-premises with Azure Pack*
 
 *1.2.5 enable deferred processing through Azure features including queues, scheduled and on-demand jobs, Azure Functions, Azure Web Jobs*
-
 
 **1.3 Design and implement the Azure Web Apps life cycle**
 
