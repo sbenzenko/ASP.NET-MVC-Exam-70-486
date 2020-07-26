@@ -1,4 +1,4 @@
-# Microsoft Exam 70-486 Topics
+﻿# Microsoft Exam 70-486 Topics
 
 ### 1. Design the application architecture (15-20%)
 
@@ -23,6 +23,7 @@
 *1.1.6 choose when to use .NET standard libraries*
  - [What is the difference between .NET Core and .NET Standard Class Library project types?](https://stackoverflow.com/questions/42939454/what-is-the-difference-between-net-core-and-net-standard-class-library-project#:~:text=Use%20a%20.,Use%20a%20)
  - [Demystifying .NET Core and .NET Standard](https://docs.microsoft.com/en-us/archive/msdn-magazine/2017/september/net-standard-demystifying-net-core-and-net-standard)
+ - [.NET Standard versions](https://dotnet.microsoft.com/platform/dotnet-standard)
 
 **1.2 Design a distributed application**
  - [Design Distributed Application](https://examref.com/MCSD/70-486/DesignDistApp)
@@ -39,25 +40,38 @@
 
 *1.2.3 plan web farms*
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) pages 27-28
+ - [Host ASP.NET Core in a web farm](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/web-farm?view=aspnetcore-3.1)
 
 *1.2.4 run Microsoft Azure services on-premises with Azure Pack*
+ - [Windows Azure Pack — что за зверь и с чем его есть?](https://habr.com/ru/company/microsoft/blog/209918/)
+ - [Windows Azure Pack for Windows Server](https://docs.microsoft.com/en-us/previous-versions/azure/windows-server-azure-pack/dn296435(v=technet.10))
 
 *1.2.5 enable deferred processing through Azure features including queues, scheduled and on-demand jobs, Azure Functions, Azure Web Jobs*
+ - [An introduction to Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview)
+ - [Run background tasks with WebJobs in Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/webjobs-create)
 
 **1.3 Design and implement the Azure Web Apps life cycle**
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) pages 31-40
 
 *1.3.1 Identify and implement Start, Run, and Stop events*
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) pages 35-38
+ - [Customize the Lifecycle of a Web or Worker role in .NET](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-role-lifecycle-dotnet)
 
 *1.3.2 code against application events in application*
+ - [HOW TO CREATE CUSTOM EVENTS, METRICS, TRACES IN AZURE APPLICATION INSIGHTS USING C#](https://carldesouza.com/how-to-create-custom-events-metrics-traces-in-azure-application-insights-using-c/)
 
 *1.3.3 configure startup tasks, including IIS, app pool configuration, and third-party tools*
+ - [Running async tasks on app startup in ASP.NET Core](https://andrewlock.net/running-async-tasks-on-app-startup-in-asp-net-core-part-1/)
+ - [How to configure and run startup tasks for a cloud service](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-startup-tasks)
+ - [Setting Application Pool Idle and Recycle Timeout Period Using Startup Tasks - Windows Azure](https://www.c-sharpcorner.com/UploadFile/aravindbenator/setting-application-pool-idle-and-recycle-timeout-period-usi/)
 
 **1.4 Configure state management**
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) pages 40-51
+ - [Session and state management in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-3.1)
 
 *1.4.1 Choose a state management mechanism including in-process, out of process, and Redis based state management*
+ - [ASP.NET Session State Provider for Azure Cache for Redis](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-aspnet-session-state-provider)
+ - [ASP.NET Session State Management With Redis](https://www.c-sharpcorner.com/UploadFile/826da2/Asp-Net-session-state-management-with-redis-local-server-fa/)
 
 *1.4.2 plan for scalability*
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) pages 44-45
@@ -72,25 +86,31 @@
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) pages 48-49
 
 *1.4.6 configure middleware to enable session and application state in ASP.NET Core*
+ - [Configure session state](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/app-state?view=aspnetcore-3.1#configure-session-state)
 
 **1.5 Design a caching strategy**
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) pages 51-59
+ - [Response caching in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/response?view=aspnetcore-3.1)
 
 *1.5.1 Implement page output caching and data caching*
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) pages 51-57
 
 *1.5.2 create cache profiles*
+ - [Cache profiles](https://docs.microsoft.com/en-us/aspnet/core/performance/caching/response?view=aspnetcore-3.1#cache-profiles)
 
 *1.5.3 implement HTTP caching*
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) page 57
 
 *1.5.4 implement Azure Redis caching*
+ - [Quickstart: Use Azure Cache for Redis with an ASP.NET web app](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-web-app-howto)
 
 *1.5.5 plan a content delivery network (CDN) strategy, for example, Azure CDN*
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) page 202
+ - [Quickstart: Create an Azure CDN profile and endpoint](https://docs.microsoft.com/en-us/azure/cdn/cdn-create-new-endpoint)
 
 **1.6 Design and implement a Web Socket strategy**
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) pages 60-67
+ - [WebSockets support in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets?view=aspnetcore-3.1)
 
 *1.6.1 Read and write string and binary data asynchronously*
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) pages 60-63
@@ -102,8 +122,10 @@
  - [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) pages 64-65
 
 *1.6.4 implement SignalR*
+ - [Tutorial: Get started with ASP.NET Core SignalR](https://docs.microsoft.com/en-us/aspnet/core/tutorials/signalr?tabs=visual-studio&view=aspnetcore-3.1)
 
 *1.6.5 enable web socket features in an Azure Web App instance*
+ - [Introduction to WebSockets on Windows Azure Web Sites](https://azure.microsoft.com/ru-ru/blog/introduction-to-websockets-on-windows-azure-web-sites/)
 
 **1.7 Design a configuration management solution**
 
