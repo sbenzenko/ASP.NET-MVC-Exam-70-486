@@ -130,22 +130,32 @@
 **1.7 Design a configuration management solution**
 
 *1.7.1 Manage configuration sources, including XML, JSON, and INI files*
+- [Configuration in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1)
 
 *1.7.2 manage environment variables*
+ - [Environment variables](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-3.1)
 
 *1.7.3 implement Option objects*
+ - [Options pattern in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-3.1)
 
 *1.7.4 implement multiple environments using files and hierarchical structure*
+ - [Hierarchical configuration data](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1#hierarchical-configuration-data)
+ - [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-3.1)
 
 *1.7.5 manage sensitive configuration*
+ - [Safe storage of app secrets in development in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets)
 
 *1.7.6 react to runtime configuration changes*
+ - [Auto Refresh Settings Changes in ASP.NET Core Runtime](https://edi.wang/post/2019/1/5/auto-refresh-settings-changes-in-aspnet-core-runtime)
 
 *1.7.7 implement a custom configuration source*
+ - [Custom configuration provider](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1#custom-configuration-provider)
 
 *1.7.8 secure configuration by using Azure Key Vault*
+ - [Azure Key Vault Configuration Provider in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-3.1)
 
 *1.7.9 use the Secret Manager tool in development to keep secrets out of your code for configuration values*
+ - [Secret Manager](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-3.1&tabs=windows#secret-manager)
 
 **1.8 Interact with the host environment**
 
