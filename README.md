@@ -136,7 +136,7 @@
 - [Configuration in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1)
 
 *1.7.2 manage environment variables*
- - [Environment variables](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-3.1)
+ - [Environment variables](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1#environment-variables)
 
 *1.7.3 implement Option objects*
  - [Options pattern in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-3.1)
@@ -167,7 +167,7 @@
  - [File Providers in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/file-providers?view=aspnetcore-3.1)
 
 *1.8.2 work with environment variables*
- - [Environment variables](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-3.1)
+ - [Environment variables](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1#environment-variables)
 
 *1.8.3 determine hosting environment capabilities*
  - [Use multiple environments in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-3.1)
@@ -197,7 +197,7 @@
  - [Enable the IISIntegration components](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-3.1#enable-the-iisintegration-components)
 
 *1.9.5 design and implement startup filters*
- - [Filters in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-3.1)
+ - [Extend Startup with startup filters](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/startup?view=aspnetcore-3.1#extend-startup-with-startup-filters)
  - [Exploring IStartupFilter in ASP.NET Core](https://andrewlock.net/exploring-istartupfilter-in-asp-net-core/)
 
 ### 2. Design the build and deployment architecture (10-15%)
@@ -205,29 +205,49 @@
 **2.1 Design a browser artifact build strategy**
 
 *2.1.1 Design a JavaScript build pipeline using Gulp, Grunt, npm and Bower*
+ - [Introduction to Bower, Grunt, and Gulp in Visual Studio](https://www.red-gate.com/simple-talk/dotnet/asp-net/introduction-to-bower-grunt-and-gulp-in-visual-studio/)
+ - [Use Grunt in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/client-side/using-grunt?view=aspnetcore-3.1)
+ - [Client-side library acquisition in ASP.NET Core with LibMan](https://docs.microsoft.com/en-us/aspnet/core/client-side/libman/?view=aspnetcore-3.1)
 
 *2.1.2 design an artifact build strategy using Less, Sass and Font Awesome*
+ - [Стилизация приложений с помощью Less, Sass и Font Awesome](https://dotnet.today/ru/aspnet5-vnext/client-side/less-sass-fa.html)
+ - [Styling Applications with Less, Sass, and Font Awesome](https://jakeydocs.readthedocs.io/en/latest/client-side/less-sass-fa.html)
 
 *2.1.3 design and implement a bundling and minification strategy for broswer artifacts, including JavaScript, CSS and images*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 197-202
+ - [Bundle and minify static assets in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/client-side/bundling-and-minification?view=aspnetcore-3.1)
 
 **2.2 Design a server build strategy**
 
 *2.2.1 Manage NuGet dependencies*
+ - Install and manage packages in
+   - [Visual Studio](https://docs.microsoft.com/en-us/nuget/consume-packages/install-use-packages-visual-studio)
+   - [dotnet CLI](https://docs.microsoft.com/en-us/nuget/consume-packages/install-use-packages-dotnet-cli)
+   - [Package Manager Console](https://docs.microsoft.com/en-us/nuget/consume-packages/install-use-packages-powershell)
 
 *2.2.2 target runtimes, including the full .NET Framework, .NET core, and .NET standard*
+ - [Target frameworks in SDK-style projects](https://docs.microsoft.com/en-us/dotnet/standard/frameworks)
 
 *2.2.3 manage debug and release configurations, including compilation and optimization options*
+ - [C# Debug vs. Release builds](https://benhall.io/c-debug-vs-release-builds-and-debugging-in-visual-studio-from-novice-to-expert-in-one-blog-article/)
+ - [Set debug and release configurations in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/debugger/how-to-set-debug-and-release-configurations?view=vs-2019)
+ - [Project settings for C# debug configurations](https://docs.microsoft.com/en-us/visualstudio/debugger/project-settings-for-csharp-debug-configurations?view=vs-2019)
 
 *2.2.4 include or exclude files from build*
+ - [How to: Select the files to build](https://docs.microsoft.com/en-us/visualstudio/msbuild/how-to-select-the-files-to-build?view=vs-2019)
+ - [How to: Exclude files from the build](https://docs.microsoft.com/en-us/visualstudio/msbuild/how-to-exclude-files-from-the-build?view=vs-2019)
+ - [Excluding Files and Folders from Deployment](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/advanced-enterprise-web-deployment/excluding-files-and-folders-from-deployment)
 
 *2.2.5 manage build sources, including content, resources, and shared files*
 
 *2.2.6 implement metadata for projects, including version, release notes, and descriptions*
+ - [A mapping between project.json and csproj properties](https://docs.microsoft.com/en-us/dotnet/core/tools/project-json-to-csproj)
 
 *2.2.7 define other build options, including xmlDoc and warningsAsErrors*
+ - [Some cool Project.json features with ASP.NET Core](https://www.talkingdotnet.com/cool-project-json-features-with-asp-net-core/)
 
 *2.2.8 work with static files in ASP.NET core*
+ - [Static files in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-3.1)
 
 **2.3 Design a publishing strategy**
 
@@ -360,6 +380,7 @@
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 160-161
 
 *4.2.4. implement server side localization and globalization*
+ - [Globalization and localization in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/localization?view=aspnetcore-3.1)
 
 **4.3 Design and implement MVC controllers and actions**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 163-175
@@ -403,6 +424,7 @@
 
 *4.5.2 implement MVC filters and controller factories*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 186-188
+ - [Filters in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-3.1)
 
 *4.5.3 control application behavior by using action results, model binders, and route handlers*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 188-194
