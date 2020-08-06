@@ -177,6 +177,7 @@
 
 *1.8.5 use ASP.NET hosting on an Open Web Interface for .NET (OWIN)-based server*
  - [Open Web Interface for .NET (OWIN) with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/owin?view=aspnetcore-3.1)
+ - [OWIN и Katana: первый взгляд](https://habr.com/ru/post/202018/)
 
 **1.9 Compose an application by using the framework pipeline**
  - [ASP.NET Core Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-3.1)
@@ -216,6 +217,7 @@
 *2.1.3 design and implement a bundling and minification strategy for broswer artifacts, including JavaScript, CSS and images*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 197-202
  - [Bundle and minify static assets in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/client-side/bundling-and-minification?view=aspnetcore-3.1)
+ - [Объединение и минификация файлов на примере ASP.NET Core MVC. Bundling and Minification](https://alekseev74.ru/lessons/show/aspnet-core-mvc/bundling-and-minification)
 
 **2.2 Design a server build strategy**
 
@@ -250,8 +252,13 @@
  - [Static files in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/static-files?view=aspnetcore-3.1)
 
 **2.3 Design a publishing strategy**
+ - [Overview of deployment in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/deployment/deploying-applications-services-and-components-resources?view=vs-2019)
+ - [Visual Studio publish profiles (.pubxml) for ASP.NET Core app deployment](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/visual-studio-publish-profiles?view=aspnetcore-3.1)
+ - [How Web Publishing In Visual Studio Works](https://aspnetcore.readthedocs.io/en/stable/publishing/web-publishing-vs.html)
 
 *2.3.1 Implement application publishing using dotnet.exe*
+ - [Basic command-line publishing](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/visual-studio-publish-profiles?view=aspnetcore-3.1#basic-command-line-publishing)
+ - [dotnet publish](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish)
 
 *2.3.2 manage publishing options in csproj*
 
@@ -262,18 +269,25 @@
 *2.3.5 implement native compilation*
 
 *2.3.6 publish to Docker container image*
+ - [Deploy an ASP.NET container to a container registry using Visual Studio](https://docs.microsoft.com/ru-ru/visualstudio/containers/hosting-web-apps-in-docker?view=vs-2019)
+ - [Docker Cheat Sheet](https://dev.to/hasone/docker-cheat-sheet-27po)
 
 **2.4 Implement an Azure deployment strategy**
 
 *2.4.1 Deploy Azure Web App using supported deployment models including FTP, Kudu, Web Deploy, and Visual Studio Publishing Wizard*
+ - [Deploy your app to Azure App Service using FTP](https://docs.microsoft.com/en-us/azure/app-service/deploy-ftp)
+ - [Deploy your app to Azure App Service with a ZIP or WAR file](https://docs.microsoft.com/en-us/azure/app-service/deploy-zip)
+ - [Publish an ASP.NET Core app to Azure with Visual Studio](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-3.1)
 
 *2.4.2 provision ARM based resources while deploying application*
+ - [Creating and deploying Azure resource groups through Visual Studio](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/create-visual-studio-deployment-project)
 
 *2.4.3 implement deployment environments, including dev, test, and prod in Azure*
 
 *2.4.4 use deployment slots for staging sites*
 
 *2.4.5 deploy to Azure Stack*
+ - [Deploy a C# ASP.NET web app to a VM in Azure Stack Hub](https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-dev-start-howto-vm-dotnet?view=azs-2002)
 
 **2.5 Implement a on-premises deployment strategy**
 
@@ -315,9 +329,12 @@
 
 **3.3 Design the UI layout of an application**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 114-123
+ - [Layout in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/layout?view=aspnetcore-3.1)
 
 *3.3.1 Implement partial views and view components for reuse in different areas of the application*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 114-116
+ - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 680-685
+ - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 700-722
 
 *3.3.2 design and implement pages by using Razor Pages*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> page 117
@@ -328,12 +345,12 @@
 *3.3.4 define and render optional and required page sections*
 
 *3.3.5 create and use tag and HTML helpers to simplify markup*
+ - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 723-754
 
 **3.4 Plan a responsive UI layout**
 
 *3.4.1 Plan for applications that run on multiple devices and screen resolutions*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 132-134
-
 
 *3.4.2 use media queries and Bootstrap's responsive grid*
 
@@ -344,6 +361,8 @@
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 126-128
 
 *3.4.5 enable consistent cross-browser experiences with polyfills*
+ - [A Beginner's Guide to HTML5 Cross-Browser Polyfills](https://www.sitepoint.com/html5-cross-browser-polyfills/)
+ - [How Polyfills Remove Browser Compatibility](https://medium.com/valtech-ch/how-polyfills-remove-browser-compatibility-d601dbfab4b8)
 
 **3.5 Plan mobile UI strategy**
 
@@ -360,11 +379,14 @@
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 146-149
 
 *4.1.2 provide an xml sitemap and robots.txt file to improve scraping*
+ - [Managing Robots.txt and Sitemap Files](https://docs.microsoft.com/en-us/iis/extensions/iis-search-engine-optimization-toolkit/managing-robotstxt-and-sitemap-files)
+ - [Serving sitemap.xml and robots.txt with ASP.Net core MVC](https://dev.to/estyc/serving-sitemap-xml-and-robots-txt-with-asp-net-core-mvc-10f1)
 
 *4.1.3 write semantic markup for accessibility, for example, screen readers*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 151-153
 
 *4.1.4 use rich snippets to increase content visibility*
+ - [What Is Structured Data And How To Add It Using JSON-LD, Schema.NET And Asp.Net MVC](https://quoracreative.com/article/Implement-Structured-Data-in-Jason-LD-format-using-Schema-Net-and-Asp-Net-MVC)
 
 **4.2 Plan and implement globalization and localization**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 156-163
@@ -517,6 +539,7 @@
 
 *6.1.3 implement ASP.NET Core Identity*
  - [ASP.NET Core 3 - Authentication - Ep.2 Identity Authentication](https://www.youtube.com/watch?v=IjbtWPXVJGw)
+ - [ASP.NET Core MVC Login and Registration with Identity](http://www.codaffection.com/asp-net-core-article/asp-net-core-mvc-login-and-registration-with-identity/)
 
 *6.1.4 enable Facebook, Google and other external providers*
  - [ASP.NET Core 3 - Authentication - Ep.2 Identity Authentication](https://www.youtube.com/watch?v=IjbtWPXVJGw)
@@ -605,5 +628,6 @@
 
 
 ## Books:
-[1] [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/) 
- 
+[1] [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/)
+
+[2] [Адам Фримен “Pro ASP.NET Core MVC 2”. – Диалектика, 2019.](https://www.ozon.ru/context/detail/id/148161571/)
