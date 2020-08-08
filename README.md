@@ -348,6 +348,7 @@
 
 *3.3.5 create and use tag and HTML helpers to simplify markup*
  - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 723-754
+ - [Tag Helpers in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-3.1)
 
 **3.4 Plan a responsive UI layout**
 
