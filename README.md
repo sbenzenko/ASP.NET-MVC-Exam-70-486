@@ -338,11 +338,13 @@
 
 *3.3.2 design and implement pages by using Razor Pages*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> page 117
+ - [Introduction to Razor Pages in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-3.1&tabs=visual-studio)
 
 *3.3.3 design and implement layouts to provide visual structure*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 117-118
 
 *3.3.4 define and render optional and required page sections*
+- [Sections](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/layout?view=aspnetcore-3.1#sections)
 
 *3.3.5 create and use tag and HTML helpers to simplify markup*
  - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 723-754
