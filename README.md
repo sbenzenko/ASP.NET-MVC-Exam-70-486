@@ -10,6 +10,7 @@
 
 *1.1.2 plan for separation of concerns, appropriate use of models, views, controllers, view components, and service dependency injection*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 6-15
+ - [Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-3.1)
  
 *1.1.3 choose between client-side and server-side processing*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 15-16
@@ -335,6 +336,7 @@
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 114-116
  - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 680-685
  - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 700-722
+ - [View components in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-3.1)
 
 *3.3.2 design and implement pages by using Razor Pages*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> page 117
@@ -356,6 +358,8 @@
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 132-134
 
 *3.4.2 use media queries and Bootstrap's responsive grid*
+ - [CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp)
+ - [Grid system](https://getbootstrap.com/docs/4.1/layout/grid/)
 
 *3.4.3 detect browser features and capabilities*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 124-126
@@ -370,13 +374,17 @@
 **3.5 Plan mobile UI strategy**
 
 *3.5.1 Implement mobile specific UI elements such as touch input, low bandwidth situations, and device orientation changes*
+ - [Hybrid Mobile Apps with ASP.NET MVC](https://www.infoq.com/articles/Hybrid-Mobile-Apps-MVC/) [?]
 
 *3.5.2 define and implement a strategy for working with mobile browsers*
+ - [Making your existing ASP.NET MVC Web Site Mobile Friendly](https://www.dotnetcurry.com/aspnet-mvc/877/mobile-friendly-aspnet-mvc-website) [?]
 
 ### 4. Develop the User Experience (15-20%)
 
 **4.1 Plan for search engine optimization and accessibility**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 145-156
+ - [Plan for search engine optimization and accessibility](http://failedturing.blogspot.com/2015/03/microsoft-70-486-plan-for-search-engine.html)
+ - [Search Engine Optimization with ASP.NET](https://www.pluralsight.com/courses/seo-with-aspdotnet) [$]
 
 *4.1.1 Use analytical tools to parse HTML*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 146-149
@@ -393,7 +401,8 @@
 
 **4.2 Plan and implement globalization and localization**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 156-163
- - [Globalization and Localization in ASP.NET Core](https://www.codewithmukesh.com/blog/globalization-and-localization-in-aspnet-core/)
+ - [Globalization and localization in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/localization?view=aspnetcore-3.1) - Docs
+ - [Globalization and Localization in ASP.NET Core](https://www.codewithmukesh.com/blog/globalization-and-localization-in-aspnet-core/) - Blog Post
 
 *4.2.1. Plan a localization strategy*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 156-158
@@ -412,40 +421,56 @@
 
 *4.3.1 Apply authorization attributes, filters including global, authentication, and overriddable filters*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 164-167
+ - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 589-626
+ - [Filters in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters?view=aspnetcore-3.1)
 
 *4.3.2 choose and implement custom HTTP status codes and responses*
+ - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 548-555
 
 *4.3.3 implement action results*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 168-170
+ - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 529-548
+ - [ActionResult In ASP.NET Core MVC](https://www.c-sharpcorner.com/article/actionresult-in-asp-net-core-mvc/)
 
 *4.3.4 implement MVC areas*
+ - [Areas in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/areas?view=aspnetcore-3.1)
 
 *4.3.5 implement Dependency Injection for services in controllers*
+ - [Dependency injection into controllers in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/dependency-injection?view=aspnetcore-3.1)
 
 **4.4 Design and implement routes**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 175-185
+ - [Routing in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-3.1)
 
 *4.4.1 Define a route to handle a URL pattern*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 176-178
+ - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 443-459
+ - [Route template reference](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-3.1#route-template-reference)
 
 *4.4.2 apply route constraints*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 178-179
+ - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 460-470
+ - [Route constraint reference](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-3.1#route-constraint-reference)
 
 *4.4.3 ignore URL patterns*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 179-180
 
 *4.4.4 add custom route parameters*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> page 180
+ - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 452-459
 
 *4.4.5 define areas*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 181-182
+ - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 505-510  
 
 *4.4.6 define routes that interoperate with Single Page Application frameworks such as Angular*
+ - [Совмещение маршрутизации Angular и ASP.NET Core](https://metanit.com/sharp/aspnetcore/2.2.php)
 
 **4.5 Control application behavior by using MVC extensibility points**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 186-197
 
 *4.5.1 Create custom middleware and inject it into the pipeline*
+ - [ASP.NET Core Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-3.1)
 
 *4.5.2 implement MVC filters and controller factories*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 186-188
@@ -455,12 +480,25 @@
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 188-194
 
 *4.5.4 inject services into a view*
+ - [Dependency injection into views in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/dependency-injection?view=aspnetcore-3.1)
 
 **4.6 Design and implement serialization and model binding**
 
 *4.6.1 Serialize models and data using supported serialization formats, including JSON, XML, protobuf, and WCF/SOAP*
+ - [JSON and XML Serialization in ASP.NET Web API](https://docs.microsoft.com/en-us/aspnet/web-api/overview/formats-and-model-binding/json-and-xml-serialization)
+ - [Protocol Buffer Basics: C#](https://developers.google.com/protocol-buffers/docs/csharptutorial)
 
-*4.6.2 implement model and property binding, including custom binding and model validation; implement web socket communication in MVC; implement file uploading and multipart data; use AutoRest to build clients*
+*4.6.2 implement model and property binding, including custom binding and model validation*
+ - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 809-876
+
+*4.6.3 implement web socket communication in MVC*
+ - [WebSockets support in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets?view=aspnetcore-3.1)
+
+*4.6.4 implement file uploading and multipart data*
+ - [Upload files in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/file-uploads?view=aspnetcore-3.1)
+
+*4.6.5 use AutoRest to build clients*
+ - [Generating clients for your APIs with AutoRest](https://dzimchuk.net/generating-clients-for-your-apis-with-autorest/)
 
 ### 5 Troubleshoot and Debug Web Applications (20-25%)
 
@@ -541,6 +579,7 @@
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 280-282
 
 *6.1.3 implement ASP.NET Core Identity*
+ - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 877-972
  - [ASP.NET Core 3 - Authentication - Ep.2 Identity Authentication](https://www.youtube.com/watch?v=IjbtWPXVJGw)
  - [ASP.NET Core MVC Login and Registration with Identity](http://www.codaffection.com/asp-net-core-article/asp-net-core-mvc-login-and-registration-with-identity/)
 
@@ -578,7 +617,6 @@
  - [ASP.NET Core 3 - OAuth - Ep.5 JWT Bearer](https://www.youtube.com/watch?v=YC4ewe7Rbl4)
  - [ASP.NET Core 3 - OAuth - Ep.6 OAuth Client](https://www.youtube.com/watch?v=0oBIgPaFYOg)
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 310-313
-
 
 **6.4 Manage data integrity**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 314-324
