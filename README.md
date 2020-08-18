@@ -134,7 +134,8 @@
 **1.7 Design a configuration management solution**
 
 *1.7.1 Manage configuration sources, including XML, JSON, and INI files*
-- [Configuration in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1)
+ - [Configuration in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1)
+ - [Эволюция конфигурации .NET](https://habr.com/ru/company/arcadia/blog/514652/)
 
 *1.7.2 manage environment variables*
  - [Environment variables](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1#environment-variables)
@@ -318,6 +319,7 @@
 
 *3.2.1 Implement client-side validation*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 98-103
+ - [Client-side validation](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-2.1#client-side-validation-1)
 
 *3.2.2 use JavaScript to manipulate the DOM*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> page 103
@@ -440,20 +442,23 @@
 
 **4.4 Design and implement routes**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 175-185
- - [Routing in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-3.1)
+ - [Routing in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-2.1)
+ - [Routing to controller actions in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/routing?view=aspnetcore-2.1)
+ - [Routing in ASP.NET Core 3.1 - Endpoints](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-3.1)
 
 *4.4.1 Define a route to handle a URL pattern*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 176-178
  - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 443-459
- - [Route template reference](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-3.1#route-template-reference)
+ - [Route template reference](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-2.1#route-template-reference-2)
 
 *4.4.2 apply route constraints*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 178-179
  - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 460-470
- - [Route constraint reference](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-3.1#route-constraint-reference)
+ - [Route constraint reference](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-2.1#route-constraint-reference-2)
 
 *4.4.3 ignore URL patterns*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 179-180
+ - [How to ignore routes in ASP.NET Core?](https://stackoverflow.com/questions/39517816/how-to-ignore-routes-in-asp-net-core)
 
 *4.4.4 add custom route parameters*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> page 180
@@ -461,7 +466,8 @@
 
 *4.4.5 define areas*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 181-182
- - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 505-510  
+ - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 505-510
+ - [Routing - Areas](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/routing?view=aspnetcore-2.1)
 
 *4.4.6 define routes that interoperate with Single Page Application frameworks such as Angular*
  - [Совмещение маршрутизации Angular и ASP.NET Core](https://metanit.com/sharp/aspnetcore/2.2.php)
@@ -478,6 +484,9 @@
 
 *4.5.3 control application behavior by using action results, model binders, and route handlers*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 188-194
+ - [How to write custom actionResult in asp.net core](https://stackoverflow.com/questions/42594356/how-to-write-custom-actionresult-in-asp-net-core/42594823)
+ - [Custom Model Binding In ASP.NET Core MVC](https://www.c-sharpcorner.com/article/custom-model-binding-in-asp-net-core-mvc/)
+ - [How to write custom actionResult in asp.net core](https://stackoverflow.com/questions/42594356/how-to-write-custom-actionresult-in-asp-net-core/42594823)
 
 *4.5.4 inject services into a view*
  - [Dependency injection into views in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/dependency-injection?view=aspnetcore-3.1)
@@ -490,6 +499,8 @@
 
 *4.6.2 implement model and property binding, including custom binding and model validation*
  - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 809-876
+ - [Custom Model Binding in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/advanced/custom-model-binding?view=aspnetcore-3.1)
+ - [Validation - Custom attributes](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-2.1#custom-attributes-1)
 
 *4.6.3 implement web socket communication in MVC*
  - [WebSockets support in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/websockets?view=aspnetcore-3.1)
@@ -507,14 +518,19 @@
 
 *5.1.1 Troubleshoot performance, security, and errors*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 216-223
+ - [Performance Diagnostic Tools](https://docs.microsoft.com/en-us/aspnet/core/performance/diagnostic-tools?view=aspnetcore-3.1)
 
 *5.1.2 implement tracing, logging, and debugging including IntelliTrace*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 223-227
+ - [Troubleshoot and debug ASP.NET Core projects](https://docs.microsoft.com/en-us/aspnet/core/test/troubleshoot?view=aspnetcore-3.1)
+ - [IntelliTrace for Visual Studio Enterprise](https://docs.microsoft.com/en-us/visualstudio/debugger/intellitrace?view=vs-2019)
 
 *5.1.3 enable and configure health monitoring including Performance Monitor*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 230-232
 
 *5.1.4 configure and use App Insights runtime telemetry*
+ - [What is Application Insights?](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
+ - [Application Insights for ASP.NET Core applications](https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-core)
 
 **5.2 Design an exception handling strategy**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 234-243
@@ -522,27 +538,36 @@
 
 *5.2.1 Handle exceptions across multiple layers*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 235-236
+ - [Handle errors in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-3.1)
 
 *5.2.2 use MVC middleware to configure error handling*
+ - [Handling errors using middleware](https://livebook.manning.com/book/asp-net-core-in-action-second-edition/chapter-3/v-2/138)
+ - [Creating a custom ErrorHandlerMiddleware function](https://andrewlock.net/creating-a-custom-error-handler-middleware-function/)
 
 *5.2.3 use different exception handling strategies for different environments*
 
 *5.2.4 create and display custom error pages*
+ - [Exception handler page](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-3.1#exception-handler-page)
 
 *5.2.5 configure a custom pipeline for error handling*
 
 *5.2.6 handle first chance exceptions*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 238-240
+ - [How to: Receive First-Chance Exception Notifications](https://docs.microsoft.com/en-us/dotnet/framework/app-domains/how-to-receive-first-chance-exception-notifications)
 
 *5.2.7 configure and use App Insights*
+ - [Application Insights for ASP.NET Core applications](https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-core)
 
 *5.2.8 log application exceptions*
+ - [Log exceptions](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-3.1#log-exceptions)
 
 **5.3 Test a web application**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 243-255
 
 *5.3.1 Create and run unit tests, for example, use the Assert class, create mocks and stubs*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 244-250
+ - [Unit testing in .NET Core and .NET Standard](https://docs.microsoft.com/en-us/dotnet/core/testing/?pivots=mstest)
+ - [Unit testing best practices](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
 
 *5.3.2 create and run web tests including using Browser Link*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 250-252
