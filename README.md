@@ -11,6 +11,7 @@
 *1.1.2 plan for separation of concerns, appropriate use of models, views, controllers, view components, and service dependency injection*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 6-15
  - [Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-3.1)
+ - [Dependency injection in ASP.NET Core](https://app.pluralsight.com/library/courses/aspdotnet-core-dependency-injection) [$][video]
  
 *1.1.3 choose between client-side and server-side processing*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 15-16
@@ -127,6 +128,7 @@
 *1.6.4 implement SignalR*
  - [Introduction to ASP.NET Core SignalR](https://docs.microsoft.com/en-us/aspnet/core/signalr/introduction?view=aspnetcore-3.1)
  - [Tutorial: Get started with ASP.NET Core SignalR](https://docs.microsoft.com/en-us/aspnet/core/tutorials/signalr?tabs=visual-studio&view=aspnetcore-3.1)
+ - [Getting started with ASP.NET Core SignalR](https://app.pluralsight.com/library/courses/aspdotnet-core-signalr-getting-started) [$][video]
 
 *1.6.5 enable web socket features in an Azure Web App instance*
  - [Introduction to WebSockets on Windows Azure Web Sites](https://azure.microsoft.com/ru-ru/blog/introduction-to-websockets-on-windows-azure-web-sites/)
@@ -142,6 +144,7 @@
 
 *1.7.3 implement Option objects*
  - [Options pattern in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-3.1)
+ - [Using Configuration and Options in .NET Core and ASP.NET Core Apps](https://app.pluralsight.com/library/courses/dotnet-core-aspnet-core-configuration-options) [$][video]
 
 *1.7.4 implement multiple environments using files and hierarchical structure*
  - [Hierarchical configuration data](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1#hierarchical-configuration-data)
@@ -353,6 +356,7 @@
 *3.3.5 create and use tag and HTML helpers to simplify markup*
  - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 723-754
  - [Tag Helpers in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-3.1)
+ - [ASP.NET Core Tag Helpers and View Components](https://app.pluralsight.com/library/courses/aspdotnet-core-tag-helpers) [$][video]
 
 **3.4 Plan a responsive UI layout**
 
@@ -474,6 +478,7 @@
 
 **4.5 Control application behavior by using MVC extensibility points**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 186-197
+ - [Improving .NET Core MVC Apps Using Extension Points](https://app.pluralsight.com/library/courses/dotnet-core-mvc-apps-extensions/table-of-contents) [$][video]
 
 *4.5.1 Create custom middleware and inject it into the pipeline*
  - [ASP.NET Core Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-3.1)
@@ -486,7 +491,7 @@
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 188-194
  - [How to write custom actionResult in asp.net core](https://stackoverflow.com/questions/42594356/how-to-write-custom-actionresult-in-asp-net-core/42594823)
  - [Custom Model Binding In ASP.NET Core MVC](https://www.c-sharpcorner.com/article/custom-model-binding-in-asp-net-core-mvc/)
- - [How to write custom actionResult in asp.net core](https://stackoverflow.com/questions/42594356/how-to-write-custom-actionresult-in-asp-net-core/42594823)
+ - [Routing Middleware — Route Handler](https://medium.com/@lucaslra/asp-net-core-mvc-pipeline-routing-middleware-route-handler-6432229fe706)
 
 *4.5.4 inject services into a view*
  - [Dependency injection into views in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/dependency-injection?view=aspnetcore-3.1)
@@ -519,14 +524,17 @@
 *5.1.1 Troubleshoot performance, security, and errors*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 216-223
  - [Performance Diagnostic Tools](https://docs.microsoft.com/en-us/aspnet/core/performance/diagnostic-tools?view=aspnetcore-3.1)
+ - [Performance Testing Techniques](https://channel9.msdn.com/Shows/On-NET/ASPNET-Core-Series-Performance-Testing-Techniques) [video]
 
 *5.1.2 implement tracing, logging, and debugging including IntelliTrace*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 223-227
- - [Troubleshoot and debug ASP.NET Core projects](https://docs.microsoft.com/en-us/aspnet/core/test/troubleshoot?view=aspnetcore-3.1)
  - [IntelliTrace for Visual Studio Enterprise](https://docs.microsoft.com/en-us/visualstudio/debugger/intellitrace?view=vs-2019)
+ - [Quickstart: Debug ASP.NET Core with the Visual Studio debugger](https://docs.microsoft.com/en-us/visualstudio/debugger/quickstart-debug-aspnet?view=vs-2019)
+ - [Effective Logging in ASP.NET Core](https://app.pluralsight.com/library/courses/asp-dotnet-core-effective-logging) [$][video]
 
 *5.1.3 enable and configure health monitoring including Performance Monitor*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 230-232
+ - [ASP.NET Core Health Checks](https://app.pluralsight.com/library/courses/asp-dot-net-core-health-checks/table-of-contents) [$][video]
 
 *5.1.4 configure and use App Insights runtime telemetry*
  - [What is Application Insights?](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
@@ -566,36 +574,47 @@
 
 *5.3.1 Create and run unit tests, for example, use the Assert class, create mocks and stubs*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 244-250
- - [Unit testing in .NET Core and .NET Standard](https://docs.microsoft.com/en-us/dotnet/core/testing/?pivots=mstest)
+ - [Walkthrough: Create and run unit tests for managed code](https://docs.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2019)
  - [Unit testing best practices](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
+ - [Unit test controller logic in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-3.1)
+ - [Test ASP.NET Core middleware](https://docs.microsoft.com/en-us/aspnet/core/test/middleware?view=aspnetcore-3.1)
+ - [Integration tests in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-3.1)
 
 *5.3.2 create and run web tests including using Browser Link*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 250-252
+ - [Browser Link in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/client-side/using-browserlink?view=aspnetcore-3.1)
 
 *5.3.3 debug a web application in multiple browsers and mobile emulators*
 
 *5.3.4 use Azure DevTest Labs*
+ - [About Azure DevTest Labs](https://docs.microsoft.com/en-us/azure/devtest-labs/devtest-lab-overview)
 
 *5.3.5 use Visual Studio Team Services*
+ - [What is Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops?view=azure-devops)
+ - [Хабр: Visual Studio Team Services](https://habr.com/ru/post/325906/) [*устар.]
 
 **5.4 Debug an Azure application**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 255-263
-
+ - [Troubleshoot an app in Azure App Service using Visual Studio](https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-dotnet-visual-studio)
 *5.4.1 Collect diagnostic information by using Azure App Insights*
 
 *5.4.2 choose log types, for example, event logs, performance counters, and crash dumps*
 
 *5.4.3 stream logs directly to Visual Studio from a deployed site*
+ - [Diagnostic logs overview](https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-dotnet-visual-studio#logsoverview)
 
 *5.4.4 debug an Azure application by using Visual Studio and remote debugging*
+ - [Remote Debug ASP.NET Core on IIS in Azure in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/debugger/remote-debugging-azure?view=vs-2019)
 
 *5.4.5 interact directly with remote Azure websites using Server Explorer*
+ - [Access app files in Server Explorer](https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-dotnet-visual-studio#remoteview)
 
 ### 6 Design and Implement Security (15-20%)
 
 **6.1 Configure authentication**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 271-293
- - [ASP.NET Core - Authentication & Authorization Tutorial](https://www.youtube.com/playlist?list=PLOeFnOV9YBa7dnrjpOG6lMpcyd7Wn7E8V)
+ - [ASP.NET Core - Authentication & Authorization Tutorial](https://www.youtube.com/playlist?list=PLOeFnOV9YBa7dnrjpOG6lMpcyd7Wn7E8V) [video]
+ - [Authentication and Authorization in ASP.NET Core](https://app.pluralsight.com/library/courses/authentication-authorization-aspnet-core/table-of-contents) [$][video]
 
 *6.1.1 Authenticate users*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 272-280
@@ -605,21 +624,23 @@
 
 *6.1.3 implement ASP.NET Core Identity*
  - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 877-972
- - [ASP.NET Core 3 - Authentication - Ep.2 Identity Authentication](https://www.youtube.com/watch?v=IjbtWPXVJGw)
+ - [ASP.NET Core 3 - Authentication - Ep.2 Identity Authentication](https://www.youtube.com/watch?v=IjbtWPXVJGw) [video]
  - [ASP.NET Core MVC Login and Registration with Identity](http://www.codaffection.com/asp-net-core-article/asp-net-core-mvc-login-and-registration-with-identity/)
 
 *6.1.4 enable Facebook, Google and other external providers*
- - [ASP.NET Core 3 - Authentication - Ep.2 Identity Authentication](https://www.youtube.com/watch?v=IjbtWPXVJGw)
+ - [ASP.NET Core 3 - Authentication - Ep.2 Identity Authentication](https://www.youtube.com/watch?v=IjbtWPXVJGw) [video]
 
 *6.1.5 implement account confirmation, password recovery, and multi-factor authentication*
- - [ASP.NET Core 3 - Identity - Ep.2.1 Email Verification](https://www.youtube.com/watch?v=Vj7iCb7wDs0)
+ - [ASP.NET Core 3 - Identity - Ep.2.1 Email Verification](https://www.youtube.com/watch?v=Vj7iCb7wDs0) [video]
 
 *6.1.6 perform authentication using Azure Active Directory, Azure Active Directory B2C, Azure Active Directory B2B, and Microsoft Identity*
+ - [Local Users with ASP.NET Core – ASP.NET Core Identity](https://csharp.christiannagel.com/2020/07/07/aspnetcoreroles/)
 
 *6.1.7 manage user session by using cookies*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 283-285
 
 *6.1.8 acquire access tokens using the Microsoft Authentication Library (MSAL)*
+ - [Overview of Microsoft Authentication Library (MSAL)](https://docs.microsoft.com/en-us/azure/active-directory/develop/msal-overview)
 
 **6.2 Configure and apply authorization**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 294-303
@@ -636,11 +657,12 @@
 
 **6.3 Design and implement claims-based authentication**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 303-314
- - [ASP.NET Core 3 - Authentication - Ep.3 Authorization (All about Policies and Claims)](https://www.youtube.com/watch?v=RBMO_hruKaI)
+ - [ASP.NET Core 3 - Authentication - Ep.3 Authorization (All about Policies and Claims)](https://www.youtube.com/watch?v=RBMO_hruKaI) [video]
+ - [ASP.NET Core - Roles vs Claims vs Policy](https://www.youtube.com/watch?v=cbtK3U2aOlg) [video]
 
 *6.3.1 perform authentication and authorization using tokens including OpenID, OAuth, JWT, SAML, bearer tokens, etc.*
- - [ASP.NET Core 3 - OAuth - Ep.5 JWT Bearer](https://www.youtube.com/watch?v=YC4ewe7Rbl4)
- - [ASP.NET Core 3 - OAuth - Ep.6 OAuth Client](https://www.youtube.com/watch?v=0oBIgPaFYOg)
+ - [ASP.NET Core 3 - OAuth - Ep.5 JWT Bearer](https://www.youtube.com/watch?v=YC4ewe7Rbl4) [video]
+ - [ASP.NET Core 3 - OAuth - Ep.6 OAuth Client](https://www.youtube.com/watch?v=0oBIgPaFYOg) [video]
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 310-313
 
 **6.4 Manage data integrity**
@@ -656,6 +678,7 @@
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 321-322
 
 *6.4.4 secure data using Azure Key Vault*
+ - [About Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/general/overview)
 
 *6.4.5 implement encryption for data protection using the data protection APIs in transit and at rest*
 
