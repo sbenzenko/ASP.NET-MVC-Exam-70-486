@@ -618,26 +618,38 @@
 
 *6.1.1 Authenticate users*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 272-280
+ - [Overview of ASP.NET Core authentication](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/?view=aspnetcore-3.1)
 
 *6.1.2 enforce authentication settings*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 280-282
 
 *6.1.3 implement ASP.NET Core Identity*
  - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 877-972
+ - [Introduction to Identity on ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity)
  - [ASP.NET Core 3 - Authentication - Ep.2 Identity Authentication](https://www.youtube.com/watch?v=IjbtWPXVJGw) [video]
  - [ASP.NET Core MVC Login and Registration with Identity](http://www.codaffection.com/asp-net-core-article/asp-net-core-mvc-login-and-registration-with-identity/)
 
 *6.1.4 enable Facebook, Google and other external providers*
+ - [Google](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/google-logins?view=aspnetcore-3.1)
+ - [Facebook](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/facebook-logins?view=aspnetcore-3.1)
+ - [Microsoft Account](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/microsoft-logins?view=aspnetcore-3.1)
+ - [Twitter](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/twitter-logins?view=aspnetcore-3.1)
+ - [External OAuth](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/other-logins?view=aspnetcore-3.1)
  - [ASP.NET Core 3 - Authentication - Ep.2 Identity Authentication](https://www.youtube.com/watch?v=IjbtWPXVJGw) [video]
 
 *6.1.5 implement account confirmation, password recovery, and multi-factor authentication*
+ - [Account confirmation and password recovery with ASP.NET Identity (C#)](https://docs.microsoft.com/en-us/aspnet/identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity)
+ - [Two-factor authentication using SMS and email with ASP.NET Identity](https://docs.microsoft.com/en-us/aspnet/identity/overview/features-api/two-factor-authentication-using-sms-and-email-with-aspnet-identity)
+ - [Account Confirmation and Password Recovery](https://jakeydocs.readthedocs.io/en/latest/security/authentication/accconfirm.html)
  - [ASP.NET Core 3 - Identity - Ep.2.1 Email Verification](https://www.youtube.com/watch?v=Vj7iCb7wDs0) [video]
 
 *6.1.6 perform authentication using Azure Active Directory, Azure Active Directory B2C, Azure Active Directory B2B, and Microsoft Identity*
+ - [Tutorial: Enable authentication in a web application using Azure Active Directory B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-web-app-dotnet?tabs=app-reg-ga)
  - [Local Users with ASP.NET Core – ASP.NET Core Identity](https://csharp.christiannagel.com/2020/07/07/aspnetcoreroles/)
 
 *6.1.7 manage user session by using cookies*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 283-285
+ - [Use cookie authentication without ASP.NET Core Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/cookie?view=aspnetcore-3.1)
 
 *6.1.8 acquire access tokens using the Microsoft Authentication Library (MSAL)*
  - [Overview of Microsoft Authentication Library (MSAL)](https://docs.microsoft.com/en-us/azure/active-directory/develop/msal-overview)
@@ -647,20 +659,31 @@
 
 *6.2.1 Create roles*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 294-296
+ - [Adding Role Authorization to a ASP.NET MVC Core Application](https://www.c-sharpcorner.com/article/adding-role-authorization-to-a-asp-net-mvc-core-application/)
+ - [Управление ролями](https://metanit.com/sharp/aspnet5/16.13.php)
 
 *6.2.2 authorize roles programmatically*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 296-298
+ - [Role-based authorization in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/roles?view=aspnetcore-3.1)
 
 *6.2.3 configure and work with custom UserStores using middleware*
+ - [Customize the user store](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity-custom-storage-providers?view=aspnetcore-3.1#customize-the-user-store)
 
 *6.2.4 configure controllers and actions to participate in authorization*
+ - [Авторизация](https://metanit.com/sharp/aspnet5/15.3.php)
 
 **6.3 Design and implement claims-based authentication**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 303-314
+ - [Claims-based authorization in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-3.1)
  - [ASP.NET Core 3 - Authentication - Ep.3 Authorization (All about Policies and Claims)](https://www.youtube.com/watch?v=RBMO_hruKaI) [video]
  - [ASP.NET Core - Roles vs Claims vs Policy](https://www.youtube.com/watch?v=cbtK3U2aOlg) [video]
 
 *6.3.1 perform authentication and authorization using tokens including OpenID, OAuth, JWT, SAML, bearer tokens, etc.*
+ - [Google](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/google-logins?view=aspnetcore-3.1)
+ - [Facebook](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/facebook-logins?view=aspnetcore-3.1)
+ - [Microsoft Account](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/microsoft-logins?view=aspnetcore-3.1)
+ - [Twitter](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/twitter-logins?view=aspnetcore-3.1)
+ - [External OAuth](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/other-logins?view=aspnetcore-3.1)
  - [ASP.NET Core 3 - OAuth - Ep.5 JWT Bearer](https://www.youtube.com/watch?v=YC4ewe7Rbl4) [video]
  - [ASP.NET Core 3 - OAuth - Ep.6 OAuth Client](https://www.youtube.com/watch?v=0oBIgPaFYOg) [video]
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 310-313
@@ -670,9 +693,11 @@
 
 *6.4.1 Apply encryption to application data*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 316-318
+ - [Cryptography in .NET](https://www.meziantou.net/cryptography-in-dotnet.htm)
 
 *6.4.2 apply encryption to the configuration sections of an application*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 319-320
+ - [Encrypting and Decrypting Configuration Sections](https://docs.microsoft.com/en-us/previous-versions/aspnet/zhhddkxy(v=vs.100))
 
 *6.4.3 sign application data to prevent tampering*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 321-322
@@ -681,24 +706,33 @@
  - [About Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/general/overview)
 
 *6.4.5 implement encryption for data protection using the data protection APIs in transit and at rest*
+ - [ASP.NET Core Data Protection](https://docs.microsoft.com/en-us/aspnet/core/security/data-protection/introduction?view=aspnetcore-3.1)
+ - [Configure ASP.NET Core Data Protection](https://docs.microsoft.com/en-us/aspnet/core/security/data-protection/configuration/overview?view=aspnetcore-3.1)
 
 **6.5 Implement a secure site**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 324-338
 
 *6.5.1 Secure communication by applying SSL certificates*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 325-328
+ - [Configuring HTTPS in ASP.NET Core across different platforms](https://devblogs.microsoft.com/aspnet/configuring-https-in-asp-net-core-across-different-platforms/)
 
 *6.5.2 require SSL for all requests*
+ - [Enforce HTTPS in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/enforcing-ssl?view=aspnetcore-3.1&tabs=visual-studio)
 
 *6.5.3 enable SSL hosting in the development environment*
+ - [Developing locally with ASP.NET Core under HTTPS, SSL, and Self-Signed Certs](https://www.hanselman.com/blog/DevelopingLocallyWithASPNETCoreUnderHTTPSSSLAndSelfSignedCerts.aspx)
 
 *6.5.4 implement SSL using Azure Load Balancers*
+ - [Understanding Azure Load Balancing Solutions - Azure Load Balancer, Azure Application Gateway and Azure Traffic Manager](https://www.codeproject.com/Articles/1254411/Understanding-Azure-Load-Balancing-Solutions-Azure)
+ - [Open port 443 in the Azure load balancer](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-tutorial-dotnet-app-enable-https-endpoint#open-port-443-in-the-azure-load-balancer)
 
 *6.5.5 salt and hash passwords for storage*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 328-331
+ - [Hash passwords in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/data-protection/consumer-apis/password-hashing?view=aspnetcore-3.1)
 
 *6.5.6 use HTML encoding to prevent cross-site scripting attacks (ANTI-XSS Library)*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 331-332
+ - [Prevent Cross-Site Scripting (XSS) in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/cross-site-scripting?view=aspnetcore-3.1)
 
 *6.5.7 implement deferred validation and handle unvalidated requests, for example, form, querystring, and URL*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 332-333
@@ -708,12 +742,16 @@
 
 *6.5.9 prevent cross-site request forgeries (XSRF)*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 335-336
+ - [Prevent Cross-Site Request Forgery (XSRF/CSRF) attacks in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/anti-request-forgery?view=aspnetcore-3.1)
 
 *6.5.10 use Azure Security Center to monitor Azure resources*
+ - [Tutorial: Protect your resources with Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/tutorial-protect-resources)
 
 *6.5.11 implement Cross Origin Resource Sharing (CORS)*
+ - [Enable Cross-Origin Requests (CORS) in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-3.1)
 
 *6.5.12 implement protection against open redirect attacks*
+ - [Prevent open redirect attacks in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/preventing-open-redirects?view=aspnetcore-3.1)
 
 
 ## Books:
