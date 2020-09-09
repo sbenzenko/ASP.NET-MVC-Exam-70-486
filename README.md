@@ -21,6 +21,7 @@
 
 *1.1.5 choose between ASP.NET Core and ASP.NET*
  - [Choose between ASP.NET 4.x and ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/choose-aspnet-framework?view=aspnetcore-3.1)
+ - [.NET Core vs. .NET Framework for server apps](https://docs.microsoft.com/en-us/dotnet/standard/choosing-core-framework-server)
 
 *1.1.6 choose when to use .NET standard libraries*
  - [What is the difference between .NET Core and .NET Standard Class Library project types?](https://stackoverflow.com/questions/42939454/what-is-the-difference-between-net-core-and-net-standard-class-library-project#:~:text=Use%20a%20.,Use%20a%20)
