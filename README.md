@@ -646,7 +646,7 @@
 
 *6.1.6 perform authentication using Azure Active Directory, Azure Active Directory B2C, Azure Active Directory B2B, and Microsoft Identity*
  - [Tutorial: Enable authentication in a web application using Azure Active Directory B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-web-app-dotnet?tabs=app-reg-ga)
- - [Local Users with ASP.NET Core – ASP.NET Core Identity](https://csharp.christiannagel.com/2020/07/07/aspnetcoreroles/)
+ - [Using Azure Active Directory B2C with ASP.NET Core](https://csharp.christiannagel.com/2018/08/01/azureadb2c/)
 
 *6.1.7 manage user session by using cookies*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 283-285
@@ -661,6 +661,7 @@
 *6.2.1 Create roles*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 294-296
  - [Adding Role Authorization to a ASP.NET MVC Core Application](https://www.c-sharpcorner.com/article/adding-role-authorization-to-a-asp-net-mvc-core-application/)
+ - [Local Users with ASP.NET Core – ASP.NET Core Identity](https://csharp.christiannagel.com/2020/07/07/aspnetcoreroles/)
  - [Управление ролями](https://metanit.com/sharp/aspnet5/16.13.php)
 
 *6.2.2 authorize roles programmatically*
