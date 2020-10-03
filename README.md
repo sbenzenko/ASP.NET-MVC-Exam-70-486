@@ -108,6 +108,7 @@
 
 *1.5.4 implement Azure Redis caching*
  - [Quickstart: Use Azure Cache for Redis with an ASP.NET web app](https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-web-app-howto)
+ - [Improve session scalability in a .NET Framework ASP.NET web application by using Azure Cache for Redis](https://docs.microsoft.com/en-us/learn/modules/aspnet-session/)
 
 *1.5.5 plan a content delivery network (CDN) strategy, for example, Azure CDN*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> page 202
@@ -277,6 +278,7 @@
 *2.3.6 publish to Docker container image*
  - [Deploy an ASP.NET container to a container registry using Visual Studio](https://docs.microsoft.com/ru-ru/visualstudio/containers/hosting-web-apps-in-docker?view=vs-2019)
  - [Docker Cheat Sheet](https://dev.to/hasone/docker-cheat-sheet-27po)
+ - [Administer containers in Azure](https://docs.microsoft.com/en-us/learn/paths/administer-containers-in-azure/)
 
 **2.4 Implement an Azure deployment strategy**
 
@@ -284,6 +286,7 @@
  - [Deploy your app to Azure App Service using FTP](https://docs.microsoft.com/en-us/azure/app-service/deploy-ftp)
  - [Deploy your app to Azure App Service with a ZIP or WAR file](https://docs.microsoft.com/en-us/azure/app-service/deploy-zip)
  - [Publish an ASP.NET Core app to Azure with Visual Studio](https://docs.microsoft.com/en-us/aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-3.1)
+ - [Publish a web app to Azure with Visual Studio](https://docs.microsoft.com/en-us/learn/modules/publish-azure-web-app-with-visual-studio/)
 
 *2.4.2 provision ARM based resources while deploying application*
  - [Creating and deploying Azure resource groups through Visual Studio](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/create-visual-studio-deployment-project)
@@ -291,6 +294,7 @@
 *2.4.3 implement deployment environments, including dev, test, and prod in Azure*
 
 *2.4.4 use deployment slots for staging sites*
+ - [Stage a web app deployment for testing and rollback by using App Service deployment slots](https://docs.microsoft.com/en-us/learn/modules/stage-deploy-app-service-deployment-slots/)
 
 *2.4.5 deploy to Azure Stack*
  - [Deploy a C# ASP.NET web app to a VM in Azure Stack Hub](https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-dev-start-howto-vm-dotnet?view=azs-2002)
@@ -298,12 +302,16 @@
 **2.5 Implement a on-premises deployment strategy**
 
 *2.5.1 Deploy application to IIS using Web Deploy, xcopy, and Visual Studio Publishing Wizard*
+ - [Introduction to Web Deploy](https://docs.microsoft.com/en-us/iis/publish/using-web-deploy/introduction-to-web-deploy)
 
 *2.5.2 deploy application to Windows Nano Server, deploy application to IIS Hosted Web Core, deploy application to HTTP.sys web server*
+ - [How to use HTTP.sys](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/httpsys?view=aspnetcore-3.1#how-to-use-httpsys)
 
 *2.5.3 deploy application to Kestrel on Windows and Linux*
+ - [Kestrel in ASP.NET Core apps](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/?view=aspnetcore-3.1&tabs=windows)
 
 *2.5.4 implement reverse proxying to Kestrel using IIS and Nginx*
+ - [When to use Kestrel with a reverse proxy](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel?view=aspnetcore-3.1#when-to-use-kestrel-with-a-reverse-proxy)
 
 ### 3. Design the User Experience (15-20%)
 
