@@ -268,10 +268,13 @@
  - [dotnet publish](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish)
 
 *2.3.2 manage publishing options in csproj*
+ - [Visual Studio publish profiles (.pubxml) for ASP.NET Core app deployment](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/visual-studio-publish-profiles?view=aspnetcore-3.1)
 
 *2.3.3 implement additional tooling*
 
 *2.3.4 implement pre-publish and post-publish scripts*
+ - [Running Scripts Pre and Post Publish in ASP.NET Core RC2](https://www.jamessturtevant.com/posts/Running-scripts-pre-and-post-publish-in-ASPNET-Core-RC2/)
+ - [Run a target before or after publishing](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/visual-studio-publish-profiles?view=aspnetcore-3.1#run-a-target-before-or-after-publishing)
 
 *2.3.5 implement native compilation*
 
@@ -597,6 +600,7 @@
 
 *5.3.4 use Azure DevTest Labs*
  - [About Azure DevTest Labs](https://docs.microsoft.com/en-us/azure/devtest-labs/devtest-lab-overview)
+ - [Microsoft Azure Developer: Performing Unit Testing & Integration Testing](https://app.pluralsight.com/library/courses/microsoft-azure-unit-integration-testing-performing) [$][video]
 
 *5.3.5 use Visual Studio Team Services*
  - [What is Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops?view=azure-devops)
@@ -605,7 +609,9 @@
 **5.4 Debug an Azure application**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 255-263
  - [Troubleshoot an app in Azure App Service using Visual Studio](https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-dotnet-visual-studio)
+
 *5.4.1 Collect diagnostic information by using Azure App Insights*
+ - [Instrument Application with Azure Monitor Application Insights](https://app.pluralsight.com/library/courses/microsoft-azure-application-insights-web-application-instrument) [$][video]
 
 *5.4.2 choose log types, for example, event logs, performance counters, and crash dumps*
 
@@ -728,6 +734,7 @@
 
 *6.5.2 require SSL for all requests*
  - [Enforce HTTPS in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/enforcing-ssl?view=aspnetcore-3.1&tabs=visual-studio)
+ - [Implementing HTTPS in ASP.NET and ASP.NET Core](https://app.pluralsight.com/library/courses/https-aspnet-and-aspnet-core)
 
 *6.5.3 enable SSL hosting in the development environment*
  - [Developing locally with ASP.NET Core under HTTPS, SSL, and Self-Signed Certs](https://www.hanselman.com/blog/DevelopingLocallyWithASPNETCoreUnderHTTPSSSLAndSelfSignedCerts.aspx)
@@ -743,22 +750,27 @@
 *6.5.6 use HTML encoding to prevent cross-site scripting attacks (ANTI-XSS Library)*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 331-332
  - [Prevent Cross-Site Scripting (XSS) in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/cross-site-scripting?view=aspnetcore-3.1)
+ - [Cross Site Scripting (XSS) Prevention for ASP.NET Core and ASP.NET Applications](https://app.pluralsight.com/library/courses/cross-site-scripting-xss-prevention-asp-dot-net-core-applications) [$][video]
 
 *6.5.7 implement deferred validation and handle unvalidated requests, for example, form, querystring, and URL*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 332-333
+ - [ASP.NET Core and ASP.NET Input Validation](https://app.pluralsight.com/library/courses/using-validation-best-practices-secure-aspdotnet-core-applications) [$][video]
 
 *6.5.8 prevent SQL injection attacks by parameterizing queries*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 333-335
+ - [Defeating Injection Attacks in ASP.NET and ASP.NET Core](https://app.pluralsight.com/library/courses/defeating-injection-attacks-aspnet-aspnet-core) [$][video]
 
 *6.5.9 prevent cross-site request forgeries (XSRF)*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 335-336
  - [Prevent Cross-Site Request Forgery (XSRF/CSRF) attacks in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/anti-request-forgery?view=aspnetcore-3.1)
+ - [Cross Site Request Forgery (CSRF) Prevention for ASP.NET Core and ASP.NET Applications](https://app.pluralsight.com/library/courses/cross-site-request-forgery-csrf-prevention-asp-dot-net-core-applications) [$][video]
 
 *6.5.10 use Azure Security Center to monitor Azure resources*
  - [Tutorial: Protect your resources with Azure Security Center](https://docs.microsoft.com/en-us/azure/security-center/tutorial-protect-resources)
 
 *6.5.11 implement Cross Origin Resource Sharing (CORS)*
  - [Enable Cross-Origin Requests (CORS) in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-3.1)
+ - [Configuring CORS in ASP.NET and ASP.NET Core](https://app.pluralsight.com/library/courses/configuring-cors-in-aspnet-and-aspnet-core) [$][video]
 
 *6.5.12 implement protection against open redirect attacks*
  - [Prevent open redirect attacks in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/preventing-open-redirects?view=aspnetcore-3.1)
