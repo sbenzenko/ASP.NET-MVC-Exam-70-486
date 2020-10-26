@@ -528,7 +528,7 @@
 *4.6.5 use AutoRest to build clients*
  - [Generating clients for your APIs with AutoRest](https://dzimchuk.net/generating-clients-for-your-apis-with-autorest/)
 
-### 5 Troubleshoot and Debug Web Applications (20-25%)
+### 5. Troubleshoot and Debug Web Applications (20-25%)
 
 **5.1 Prevent and troubleshoot runtime issues**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 215-234
@@ -727,6 +727,7 @@
 
 **6.5 Implement a secure site**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 324-338
+ - [Securing ASP.NET and ASP.NET Core Applications](https://app.pluralsight.com/paths/skills/securing-aspnet-and-aspnet-core-applications) [$][video]
 
 *6.5.1 Secure communication by applying SSL certificates*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 325-328
