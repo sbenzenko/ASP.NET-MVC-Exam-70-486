@@ -55,7 +55,8 @@
 
 **1.3 Design and implement the Azure Web Apps life cycle**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 31-40
- - [Building ASP.NET Core Hosted Services and .NET Core Worker Services](https://app.pluralsight.com/library/courses/building-aspnet-core-hosted-services-net-core-worker-services) [$][video]
+ - [Background tasks with hosted services in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
+ - [Building ASP.NET Core Hosted Services and .NET Core Worker Services](https://app.pluralsight.com/library/courses/building-aspnet-core-hosted-services-net-core-worker-services) [$][video]h
 
 *1.3.1 Identify and implement Start, Run, and Stop events*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 35-38
