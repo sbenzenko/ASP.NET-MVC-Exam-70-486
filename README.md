@@ -55,13 +55,14 @@
 
 **1.3 Design and implement the Azure Web Apps life cycle**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 31-40
+ - [Building ASP.NET Core Hosted Services and .NET Core Worker Services](https://app.pluralsight.com/library/courses/building-aspnet-core-hosted-services-net-core-worker-services) [$][video]
 
 *1.3.1 Identify and implement Start, Run, and Stop events*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 35-38
  - [Customize the Lifecycle of a Web or Worker role in .NET](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-role-lifecycle-dotnet)
 
 *1.3.2 code against application events in application*
- - [HOW TO CREATE CUSTOM EVENTS, METRICS, TRACES IN AZURE APPLICATION INSIGHTS USING C#](https://carldesouza.com/how-to-create-custom-events-metrics-traces-in-azure-application-insights-using-c/)
+ - [ASP.NET Core 3.0: The MVC Request Life Cycle](https://app.pluralsight.com/library/courses/aspnet-core-3-mvc-request-life-cycle) [$][video]
 
 *1.3.3 configure startup tasks, including IIS, app pool configuration, and third-party tools*
  - [Running async tasks on app startup in ASP.NET Core](https://andrewlock.net/running-async-tasks-on-app-startup-in-asp-net-core-part-1/)
