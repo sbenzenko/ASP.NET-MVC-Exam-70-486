@@ -292,9 +292,11 @@
  - [Publish a web app to Azure with Visual Studio](https://docs.microsoft.com/en-us/learn/modules/publish-azure-web-app-with-visual-studio/)
 
 *2.4.2 provision ARM based resources while deploying application*
+ - [Deploy resources with ARM templates and Azure portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-portal)
  - [Creating and deploying Azure resource groups through Visual Studio](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/create-visual-studio-deployment-project)
 
 *2.4.3 implement deployment environments, including dev, test, and prod in Azure*
+ - [Create and target an environment](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/environments?view=azure-devops)
 
 *2.4.4 use deployment slots for staging sites*
  - [Stage a web app deployment for testing and rollback by using App Service deployment slots](https://docs.microsoft.com/en-us/learn/modules/stage-deploy-app-service-deployment-slots/)
@@ -322,9 +324,11 @@
 
 *3.1.1 Create and apply styles by using CSS*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 86-89
+ - [CSS3](https://html5book.ru/css-css3/)
 
 *3.1.2 structure and lay out the user interface by using HTML*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 90-92
+ - [HTML5](https://html5book.ru/html-html5/)
 
 *3.1.3 implement dynamic page content based on a design*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 92-95
@@ -335,12 +339,16 @@
 *3.2.1 Implement client-side validation*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 98-103
  - [Client-side validation](https://docs.microsoft.com/en-us/aspnet/core/mvc/models/validation?view=aspnetcore-2.1#client-side-validation-1)
+ - [ASP.NET Core and ASP.NET Input Validation](https://app.pluralsight.com/library/courses/using-validation-best-practices-secure-aspdotnet-core-applications/) [$][video]
 
 *3.2.2 use JavaScript to manipulate the DOM*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> page 103
+ - [How to Manipulate HTML (An Intro to the JS DOM)](https://medium.com/@pdlozano/how-to-manipulate-html-an-intro-to-the-js-dom-276784df6d61)
+ - [Манипуляции HTML-элементами](https://html5book.ru/jquery-manipulyacii)
 
 *3.2.3 extend objects by using prototypal inheritance*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 103-105
+ - [Prototypal inheritance](https://javascript.info/prototype-inheritance)
 
 *3.2.4 use AJAX to make partial page updates*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 105-108
@@ -354,6 +362,7 @@
  - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 680-685
  - "Pro ASP.NET Core MVC 2"<sup>[2]</sup> cтр. 700-722
  - [View components in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-components?view=aspnetcore-3.1)
+ - [ASP.NET Core Tag Helpers and View Components](https://app.pluralsight.com/library/courses/aspdotnet-core-tag-helpers) [$][video]
 
 *3.3.2 design and implement pages by using Razor Pages*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> page 117
@@ -381,6 +390,7 @@
 
 *3.4.3 detect browser features and capabilities*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 124-126
+ - [Implementing feature detection](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection)
 
 *3.4.4 create a web application that runs across multiple browsers and mobile devices*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 126-128
