@@ -55,13 +55,15 @@
 
 **1.3 Design and implement the Azure Web Apps life cycle**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 31-40
+ - [Background tasks with hosted services in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
+ - [Building ASP.NET Core Hosted Services and .NET Core Worker Services](https://app.pluralsight.com/library/courses/building-aspnet-core-hosted-services-net-core-worker-services) [$][video]
 
 *1.3.1 Identify and implement Start, Run, and Stop events*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 35-38
  - [Customize the Lifecycle of a Web or Worker role in .NET](https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-role-lifecycle-dotnet)
 
 *1.3.2 code against application events in application*
- - [HOW TO CREATE CUSTOM EVENTS, METRICS, TRACES IN AZURE APPLICATION INSIGHTS USING C#](https://carldesouza.com/how-to-create-custom-events-metrics-traces-in-azure-application-insights-using-c/)
+ - [ASP.NET Core 3.0: The MVC Request Life Cycle](https://app.pluralsight.com/library/courses/aspnet-core-3-mvc-request-life-cycle) [$][video]
 
 *1.3.3 configure startup tasks, including IIS, app pool configuration, and third-party tools*
  - [Running async tasks on app startup in ASP.NET Core](https://andrewlock.net/running-async-tasks-on-app-startup-in-asp-net-core-part-1/)
@@ -187,6 +189,7 @@
  - [OWIN и Katana: первый взгляд](https://habr.com/ru/post/202018/)
 
 **1.9 Compose an application by using the framework pipeline**
+ - [ASP.NET Core 3.0: The MVC Request Life Cycle](https://app.pluralsight.com/library/courses/aspnet-core-3-mvc-request-life-cycle) [$][video]
  - [ASP.NET Core Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-3.1)
 
 *1.9.1 Add custom request processing modules to the pipeline*
@@ -243,11 +246,13 @@
  - [Project settings for C# debug configurations](https://docs.microsoft.com/en-us/visualstudio/debugger/project-settings-for-csharp-debug-configurations?view=vs-2019)
 
 *2.2.4 include or exclude files from build*
+ - [Excluding Files and Folders in Visual Studio Web Site Project](https://weblog.west-wind.com/posts/2020/Jul/25/Excluding-Files-and-Folders-in-Visual-Studio-Web-Site-Project)
  - [How to: Select the files to build](https://docs.microsoft.com/en-us/visualstudio/msbuild/how-to-select-the-files-to-build?view=vs-2019)
  - [How to: Exclude files from the build](https://docs.microsoft.com/en-us/visualstudio/msbuild/how-to-exclude-files-from-the-build?view=vs-2019)
  - [Excluding Files and Folders from Deployment](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/advanced-enterprise-web-deployment/excluding-files-and-folders-from-deployment)
 
 *2.2.5 manage build sources, including content, resources, and shared files*
+- [Project file "files" section](https://docs.microsoft.com/en-us/dotnet/core/tools/project-json-to-csproj#files)
 
 *2.2.6 implement metadata for projects, including version, release notes, and descriptions*
  - [A mapping between project.json and csproj properties](https://docs.microsoft.com/en-us/dotnet/core/tools/project-json-to-csproj)
