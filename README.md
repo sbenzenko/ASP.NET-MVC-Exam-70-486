@@ -252,6 +252,7 @@
  - [Excluding Files and Folders from Deployment](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/advanced-enterprise-web-deployment/excluding-files-and-folders-from-deployment)
 
 *2.2.5 manage build sources, including content, resources, and shared files*
+- [Project file "files" section](https://docs.microsoft.com/en-us/dotnet/core/tools/project-json-to-csproj#files)
 
 *2.2.6 implement metadata for projects, including version, release notes, and descriptions*
  - [A mapping between project.json and csproj properties](https://docs.microsoft.com/en-us/dotnet/core/tools/project-json-to-csproj)
