@@ -56,7 +56,7 @@
 **1.3 Design and implement the Azure Web Apps life cycle**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 31-40
  - [Background tasks with hosted services in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services)
- - [Building ASP.NET Core Hosted Services and .NET Core Worker Services](https://app.pluralsight.com/library/courses/building-aspnet-core-hosted-services-net-core-worker-services) [$][video]h
+ - [Building ASP.NET Core Hosted Services and .NET Core Worker Services](https://app.pluralsight.com/library/courses/building-aspnet-core-hosted-services-net-core-worker-services) [$][video]
 
 *1.3.1 Identify and implement Start, Run, and Stop events*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 35-38
@@ -189,6 +189,7 @@
  - [OWIN и Katana: первый взгляд](https://habr.com/ru/post/202018/)
 
 **1.9 Compose an application by using the framework pipeline**
+ - [ASP.NET Core 3.0: The MVC Request Life Cycle](https://app.pluralsight.com/library/courses/aspnet-core-3-mvc-request-life-cycle) [$][video]
  - [ASP.NET Core Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-3.1)
 
 *1.9.1 Add custom request processing modules to the pipeline*
