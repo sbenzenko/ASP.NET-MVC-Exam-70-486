@@ -323,7 +323,7 @@
 *2.5.4 implement reverse proxying to Kestrel using IIS and Nginx*
  - [When to use Kestrel with a reverse proxy](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel?view=aspnetcore-3.1#when-to-use-kestrel-with-a-reverse-proxy)
 
-### 3. Design the User Experience (15-20%)
+### 3. Design the User Interface (15-20%)
 
 **3.1 Create elements of the user interface for a web application**
 
@@ -417,7 +417,7 @@
 **4.1 Plan for search engine optimization and accessibility**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 145-156
  - [Plan for search engine optimization and accessibility](http://failedturing.blogspot.com/2015/03/microsoft-70-486-plan-for-search-engine.html)
- - [Search Engine Optimization with ASP.NET](https://www.pluralsight.com/courses/seo-with-aspdotnet) [$]
+ - [Search Engine Optimization with ASP.NET](https://www.pluralsight.com/courses/seo-with-aspdotnet) [$][video]
 
 *4.1.1 Use analytical tools to parse HTML*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 146-149
@@ -505,7 +505,7 @@
 
 **4.5 Control application behavior by using MVC extensibility points**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 186-197
- - [ASP.NET Core 3.0: The MVC Request Life Cycle](https://app.pluralsight.com/library/courses/aspnet-core-3-mvc-request-life-cycle)
+ - [ASP.NET Core 3.0: The MVC Request Life Cycle](https://app.pluralsight.com/library/courses/aspnet-core-3-mvc-request-life-cycle) [$][video]
  - [Improving .NET Core MVC Apps Using Extension Points](https://app.pluralsight.com/library/courses/dotnet-core-mvc-apps-extensions/table-of-contents) [$][video]
 
 *4.5.1 Create custom middleware and inject it into the pipeline*
