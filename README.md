@@ -505,6 +505,7 @@
 
 **4.5 Control application behavior by using MVC extensibility points**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 186-197
+ - [ASP.NET Core 3.0: The MVC Request Life Cycle](https://app.pluralsight.com/library/courses/aspnet-core-3-mvc-request-life-cycle)
  - [Improving .NET Core MVC Apps Using Extension Points](https://app.pluralsight.com/library/courses/dotnet-core-mvc-apps-extensions/table-of-contents) [$][video]
 
 *4.5.1 Create custom middleware and inject it into the pipeline*
