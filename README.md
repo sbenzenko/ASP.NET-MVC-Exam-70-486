@@ -551,17 +551,20 @@
 
 *5.1.1 Troubleshoot performance, security, and errors*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 216-223
- - [Performance Diagnostic Tools](https://docs.microsoft.com/en-us/aspnet/core/performance/diagnostic-tools?view=aspnetcore-3.1)
+ - [First look at profiling tools](https://docs.microsoft.com/en-us/visualstudio/profiling/profiling-feature-tour?view=vs-2019)
+ - [Measure application performance by analyzing CPU usage](https://docs.microsoft.com/en-us/visualstudio/profiling/beginners-guide-to-performance-profiling?view=vs-2019)
+ - [Measure memory usage in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/profiling/memory-usage?view=vs-2019)
  - [Performance Testing Techniques](https://channel9.msdn.com/Shows/On-NET/ASPNET-Core-Series-Performance-Testing-Techniques) [video]
 
 *5.1.2 implement tracing, logging, and debugging including IntelliTrace*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 223-227
  - [IntelliTrace for Visual Studio Enterprise](https://docs.microsoft.com/en-us/visualstudio/debugger/intellitrace?view=vs-2019)
- - [Quickstart: Debug ASP.NET Core with the Visual Studio debugger](https://docs.microsoft.com/en-us/visualstudio/debugger/quickstart-debug-aspnet?view=vs-2019)
+ - [First look at the Visual Studio Debugger](https://docs.microsoft.com/en-us/visualstudio/debugger/debugger-feature-tour?view=vs-2019)
  - [Effective Logging in ASP.NET Core](https://app.pluralsight.com/library/courses/asp-dotnet-core-effective-logging) [$][video]
 
 *5.1.3 enable and configure health monitoring including Performance Monitor*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 230-232
+ - [Windows Performance Monitor Overview](https://techcommunity.microsoft.com/t5/ask-the-performance-team/windows-performance-monitor-overview/ba-p/375481)
  - [ASP.NET Core Health Checks](https://app.pluralsight.com/library/courses/asp-dot-net-core-health-checks/table-of-contents) [$][video]
 
 *5.1.4 configure and use App Insights runtime telemetry*
