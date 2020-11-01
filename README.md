@@ -191,6 +191,7 @@
 **1.9 Compose an application by using the framework pipeline**
  - [ASP.NET Core 3.0: The MVC Request Life Cycle](https://app.pluralsight.com/library/courses/aspnet-core-3-mvc-request-life-cycle) [$][video]
  - [ASP.NET Core Middleware](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/middleware/?view=aspnetcore-3.1)
+ - "ASP.NET Core in Action"<sup>[3]</sup> pages 61-92
 
 *1.9.1 Add custom request processing modules to the pipeline*
  - [Adding Custom Processing to Requests in ASP.NET](https://visualstudiomagazine.com/articles/2018/10/01/adding-custom-processing.aspx)
@@ -323,7 +324,7 @@
 *2.5.4 implement reverse proxying to Kestrel using IIS and Nginx*
  - [When to use Kestrel with a reverse proxy](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel?view=aspnetcore-3.1#when-to-use-kestrel-with-a-reverse-proxy)
 
-### 3. Design the User Interface (15-20%)
+### 3. Design the User Experience (Interface) (15-20%)
 
 **3.1 Create elements of the user interface for a web application**
 
@@ -570,22 +571,23 @@
 
 **5.2 Design an exception handling strategy**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 234-243
- - [Global Exception Handling in ASP.NET Core Web API](https://blog.jonblankenship.com/2020/04/12/global-exception-handling-in-aspnet-core-api/)
 
 *5.2.1 Handle exceptions across multiple layers*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 235-236
  - [Handle errors in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-3.1)
 
 *5.2.2 use MVC middleware to configure error handling*
- - [Handling errors using middleware](https://livebook.manning.com/book/asp-net-core-in-action-second-edition/chapter-3/v-2/138)
- - [Creating a custom ErrorHandlerMiddleware function](https://andrewlock.net/creating-a-custom-error-handler-middleware-function/)
+ - "ASP.NET Core in Action"<sup>[3]</sup> pages 78-92
 
 *5.2.3 use different exception handling strategies for different environments*
-
+ - "ASP.NET Core in Action"<sup>[3]</sup> pages 80-86
+ 
 *5.2.4 create and display custom error pages*
  - [Exception handler page](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-3.1#exception-handler-page)
 
 *5.2.5 configure a custom pipeline for error handling*
+ - [Global Exception Handling in ASP.NET Core Web API](https://blog.jonblankenship.com/2020/04/12/global-exception-handling-in-aspnet-core-api/)
+ - [Creating a custom ErrorHandlerMiddleware function](https://andrewlock.net/creating-a-custom-error-handler-middleware-function/)
 
 *5.2.6 handle first chance exceptions*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 238-240
@@ -595,6 +597,7 @@
  - [Application Insights for ASP.NET Core applications](https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-core)
 
 *5.2.8 log application exceptions*
+ - [Global Error Handling In ASP.NET Core App Using NLog](https://www.c-sharpcorner.com/article/global-error-handling-in-asp-net-core-app-using-nlog/)
  - [Log exceptions](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-3.1#log-exceptions)
 
 **5.3 Test a web application**
@@ -797,3 +800,7 @@
 [1] [Exam Ref 70-486 Developing ASP.NET MVC 4 Web](https://www.amazon.com/Exam-70-486-Developing-ASP-NET-Applications/dp/1509300929/)
 
 [2] [Адам Фримен “Pro ASP.NET Core MVC 2”. – Диалектика, 2019.](https://www.ozon.ru/context/detail/id/148161571/)
+
+[3] [Andrew Lock "ASP.NET Core in Action". - Manning, 2018.](https://www.manning.com/books/asp-net-core-in-action)
+
+
