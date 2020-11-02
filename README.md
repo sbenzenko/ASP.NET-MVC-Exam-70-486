@@ -677,12 +677,15 @@
  - [ASP.NET Core 3 - Authentication - Ep.2 Identity Authentication](https://www.youtube.com/watch?v=IjbtWPXVJGw) [video]
 
 *6.1.5 implement account confirmation, password recovery, and multi-factor authentication*
- - [Account confirmation and password recovery with ASP.NET Identity (C#)](https://docs.microsoft.com/en-us/aspnet/identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity)
- - [Two-factor authentication using SMS and email with ASP.NET Identity](https://docs.microsoft.com/en-us/aspnet/identity/overview/features-api/two-factor-authentication-using-sms-and-email-with-aspnet-identity)
+ - [Account confirmation and password recovery in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/accconfirm)
  - [Account Confirmation and Password Recovery](https://jakeydocs.readthedocs.io/en/latest/security/authentication/accconfirm.html)
+ - [Two-factor authentication with SMS in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/2fa)
+ - [Enable QR Code generation for TOTP authenticator apps in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity-enable-qrcodes)
  - [ASP.NET Core 3 - Identity - Ep.2.1 Email Verification](https://www.youtube.com/watch?v=Vj7iCb7wDs0) [video]
 
 *6.1.6 perform authentication using Azure Active Directory, Azure Active Directory B2C, Azure Active Directory B2B, and Microsoft Identity*
+ - [Protect a web API backend in Azure API Management by using OAuth 2.0 authorization with Azure AD](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-protect-backend-with-aad)
+ - [Secure your RESTful services (B2C)](https://docs.microsoft.com/en-us/azure/active-directory-b2c/secure-rest-api)
  - [Tutorial: Enable authentication in a web application using Azure Active Directory B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-web-app-dotnet?tabs=app-reg-ga)
  - [Using Azure Active Directory B2C with ASP.NET Core](https://csharp.christiannagel.com/2018/08/01/azureadb2c/)
 
@@ -695,6 +698,7 @@
 
 **6.2 Configure and apply authorization**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 294-303
+ - [Create an ASP.NET Core web app with user data protected by authorization](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/secure-data)
 
 *6.2.1 Create roles*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 294-296
