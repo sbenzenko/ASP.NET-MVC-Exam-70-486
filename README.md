@@ -705,6 +705,7 @@
  - [Adding Role Authorization to a ASP.NET MVC Core Application](https://www.c-sharpcorner.com/article/adding-role-authorization-to-a-asp-net-mvc-core-application/)
  - [Local Users with ASP.NET Core – ASP.NET Core Identity](https://csharp.christiannagel.com/2020/07/07/aspnetcoreroles/)
  - [Управление ролями](https://metanit.com/sharp/aspnet5/16.13.php)
+ - [ASP.NET Core - Roles vs Claims vs Policy](https://www.youtube.com/watch?v=cbtK3U2aOlg) [video]
 
 *6.2.2 authorize roles programmatically*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 296-298
@@ -720,16 +721,13 @@
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 303-314
  - [Claims-based authorization in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/authorization/claims?view=aspnetcore-3.1)
  - [ASP.NET Core 3 - Authentication - Ep.3 Authorization (All about Policies and Claims)](https://www.youtube.com/watch?v=RBMO_hruKaI) [video]
- - [ASP.NET Core - Roles vs Claims vs Policy](https://www.youtube.com/watch?v=cbtK3U2aOlg) [video]
 
 *6.3.1 perform authentication and authorization using tokens including OpenID, OAuth, JWT, SAML, bearer tokens, etc.*
- - [Google](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/google-logins?view=aspnetcore-3.1)
- - [Facebook](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/facebook-logins?view=aspnetcore-3.1)
- - [Microsoft Account](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/microsoft-logins?view=aspnetcore-3.1)
- - [Twitter](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/twitter-logins?view=aspnetcore-3.1)
- - [External OAuth](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/other-logins?view=aspnetcore-3.1)
+ - [Bearer Token Authentication in ASP.NET Core](https://devblogs.microsoft.com/aspnet/bearer-token-authentication-in-asp-net-core/)
+ - [Авторизация с помощью JWT-токенов](https://metanit.com/sharp/aspnet5/23.7.php)
  - [ASP.NET Core 3 - OAuth - Ep.5 JWT Bearer](https://www.youtube.com/watch?v=YC4ewe7Rbl4) [video]
  - [ASP.NET Core 3 - OAuth - Ep.6 OAuth Client](https://www.youtube.com/watch?v=0oBIgPaFYOg) [video]
+ - [Authentication and Authorization in ASP.NET Core](https://app.pluralsight.com/library/courses/authentication-authorization-aspnet-core/table-of-contents) [$][video]
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 310-313
 
 **6.4 Manage data integrity**
