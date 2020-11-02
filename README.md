@@ -613,6 +613,7 @@
  - [Unit test controller logic in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-3.1)
  - [Test ASP.NET Core middleware](https://docs.microsoft.com/en-us/aspnet/core/test/middleware?view=aspnetcore-3.1)
  - [Integration tests in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-3.1)
+ - [Microsoft Azure Developer: Performing Unit Testing & Integration Testing](https://app.pluralsight.com/course-player?clipId=862dd10e-4860-4e7b-8dca-84bcfd83f743) [$][video]
 
 *5.3.2 create and run web tests including using Browser Link*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 250-252
@@ -622,26 +623,27 @@
 
 *5.3.4 use Azure DevTest Labs*
  - [About Azure DevTest Labs](https://docs.microsoft.com/en-us/azure/devtest-labs/devtest-lab-overview)
- - [Microsoft Azure Developer: Performing Unit Testing & Integration Testing](https://app.pluralsight.com/library/courses/microsoft-azure-unit-integration-testing-performing) [$][video]
 
 *5.3.5 use Visual Studio Team Services*
  - [What is Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops?view=azure-devops)
  - [Хабр: Visual Studio Team Services](https://habr.com/ru/post/325906/) [*устар.]
 
 **5.4 Debug an Azure application**
- - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 255-263
  - [Troubleshoot an app in Azure App Service using Visual Studio](https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-dotnet-visual-studio)
 
 *5.4.1 Collect diagnostic information by using Azure App Insights*
  - [Instrument Application with Azure Monitor Application Insights](https://app.pluralsight.com/library/courses/microsoft-azure-application-insights-web-application-instrument) [$][video]
+ - [Microsoft Azure Developer: Troubleshooting Using Microsoft Azure Portal](https://app.pluralsight.com/library/courses/microsoft-azure-portal-troubleshooting-using) [$][video]
 
 *5.4.2 choose log types, for example, event logs, performance counters, and crash dumps*
+ - [Microsoft Azure Developer: Implementing Application Logging with App Service Logs](https://app.pluralsight.com/library/courses/microsoft-azure-application-logging-diagnostic-logs-implementing) [$][video]
 
 *5.4.3 stream logs directly to Visual Studio from a deployed site*
  - [Diagnostic logs overview](https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-dotnet-visual-studio#logsoverview)
 
 *5.4.4 debug an Azure application by using Visual Studio and remote debugging*
  - [Remote Debug ASP.NET Core on IIS in Azure in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/debugger/remote-debugging-azure?view=vs-2019)
+ - [Debug live ASP.NET Azure apps using the Snapshot Debugger](https://docs.microsoft.com/en-us/visualstudio/debugger/debug-live-azure-applications?view=vs-2019)
 
 *5.4.5 interact directly with remote Azure websites using Server Explorer*
  - [Access app files in Server Explorer](https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-dotnet-visual-studio#remoteview)
