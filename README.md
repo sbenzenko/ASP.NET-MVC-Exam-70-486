@@ -288,6 +288,7 @@
  - [Deploy an ASP.NET container to a container registry using Visual Studio](https://docs.microsoft.com/ru-ru/visualstudio/containers/hosting-web-apps-in-docker?view=vs-2019)
  - [Docker Cheat Sheet](https://dev.to/hasone/docker-cheat-sheet-27po)
  - [Administer containers in Azure](https://docs.microsoft.com/en-us/learn/paths/administer-containers-in-azure/)
+ - [Microsoft Azure for .NET Developers - Building Secure Services and Applications (Modules 2-3)](https://app.pluralsight.com/library/courses/microsoft-azure-dotnet-secure-services-applications-update) [$][video]
 
 **2.4 Implement an Azure deployment strategy**
 
@@ -300,6 +301,7 @@
 *2.4.2 provision ARM based resources while deploying application*
  - [Deploy resources with ARM templates and Azure portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/deploy-portal)
  - [Creating and deploying Azure resource groups through Visual Studio](https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/create-visual-studio-deployment-project)
+ - [Microsoft Azure for .NET Developers - Building Secure Services and Applications (Module 4)](https://app.pluralsight.com/library/courses/microsoft-azure-dotnet-secure-services-applications-update) [$][video]
 
 *2.4.3 implement deployment environments, including dev, test, and prod in Azure*
  - [Create and target an environment](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/environments?view=azure-devops)
@@ -602,6 +604,7 @@
 *5.2.8 log application exceptions*
  - [Global Error Handling In ASP.NET Core App Using NLog](https://www.c-sharpcorner.com/article/global-error-handling-in-asp-net-core-app-using-nlog/)
  - [Log exceptions](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-3.1#log-exceptions)
+ - [Securely Handling Errors and Logging Security Events in ASP.NET and ASP.NET Core](https://app.pluralsight.com/library/courses/securely-handling-errors-logging-events-aspdotnet-aspdotnet-core) [$][video]
 
 **5.3 Test a web application**
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 243-255
@@ -613,7 +616,7 @@
  - [Unit test controller logic in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/testing?view=aspnetcore-3.1)
  - [Test ASP.NET Core middleware](https://docs.microsoft.com/en-us/aspnet/core/test/middleware?view=aspnetcore-3.1)
  - [Integration tests in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-3.1)
- - [Microsoft Azure Developer: Performing Unit Testing & Integration Testing](https://app.pluralsight.com/course-player?clipId=862dd10e-4860-4e7b-8dca-84bcfd83f743) [$][video]
+ - [Microsoft Azure Developer: Performing Unit Testing & Integration Testing (Modules 2-4)](https://app.pluralsight.com/course-player?clipId=862dd10e-4860-4e7b-8dca-84bcfd83f743) [$][video]
 
 *5.3.2 create and run web tests including using Browser Link*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 250-252
@@ -688,6 +691,7 @@
  - [Secure your RESTful services (B2C)](https://docs.microsoft.com/en-us/azure/active-directory-b2c/secure-rest-api)
  - [Tutorial: Enable authentication in a web application using Azure Active Directory B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-web-app-dotnet?tabs=app-reg-ga)
  - [Using Azure Active Directory B2C with ASP.NET Core](https://csharp.christiannagel.com/2018/08/01/azureadb2c/)
+ - [Microsoft Azure for .NET Developers - Building Secure Services and Applications (Modules 7-8)](https://app.pluralsight.com/library/courses/microsoft-azure-dotnet-secure-services-applications-update) [$][video]
 
 *6.1.7 manage user session by using cookies*
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 283-285
@@ -727,7 +731,7 @@
  - [Авторизация с помощью JWT-токенов](https://metanit.com/sharp/aspnet5/23.7.php)
  - [ASP.NET Core 3 - OAuth - Ep.5 JWT Bearer](https://www.youtube.com/watch?v=YC4ewe7Rbl4) [video]
  - [ASP.NET Core 3 - OAuth - Ep.6 OAuth Client](https://www.youtube.com/watch?v=0oBIgPaFYOg) [video]
- - [Authentication and Authorization in ASP.NET Core](https://app.pluralsight.com/library/courses/authentication-authorization-aspnet-core/table-of-contents) [$][video]
+ - [Authentication and Authorization in ASP.NET Core (Module 4)](https://app.pluralsight.com/library/courses/authentication-authorization-aspnet-core/table-of-contents) [$][video]
  - "Exam Ref 70-486 Developing ASP.NET MVC 4 Web"<sup>[1]</sup> pages 310-313
 
 **6.4 Manage data integrity**
@@ -746,6 +750,7 @@
 
 *6.4.4 secure data using Azure Key Vault*
  - [About Azure Key Vault](https://docs.microsoft.com/en-us/azure/key-vault/general/overview)
+ - [Securing Application Secrets in ASP.NET Core](https://app.pluralsight.com/library/courses/securing-application-secrets-in-asp-net-core) [$][video]
 
 *6.4.5 implement encryption for data protection using the data protection APIs in transit and at rest*
  - [ASP.NET Core Data Protection](https://docs.microsoft.com/en-us/aspnet/core/security/data-protection/introduction?view=aspnetcore-3.1)
@@ -761,7 +766,7 @@
 
 *6.5.2 require SSL for all requests*
  - [Enforce HTTPS in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/security/enforcing-ssl?view=aspnetcore-3.1&tabs=visual-studio)
- - [Implementing HTTPS in ASP.NET and ASP.NET Core](https://app.pluralsight.com/library/courses/https-aspnet-and-aspnet-core)
+ - [Implementing HTTPS in ASP.NET and ASP.NET Core](https://app.pluralsight.com/library/courses/https-aspnet-and-aspnet-core) [$][video]
 
 *6.5.3 enable SSL hosting in the development environment*
  - [Developing locally with ASP.NET Core under HTTPS, SSL, and Self-Signed Certs](https://www.hanselman.com/blog/DevelopingLocallyWithASPNETCoreUnderHTTPSSSLAndSelfSignedCerts.aspx)
